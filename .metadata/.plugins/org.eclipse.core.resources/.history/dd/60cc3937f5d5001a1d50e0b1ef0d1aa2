@@ -1,0 +1,16 @@
+package com.learning.springframewrk.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.learning.springframewrk.web.model.BeerDTO;
+
+@RequestMapping("/api/v1/beer")
+@RestController
+public class BeerController {
+
+	public ResponseEntity<BeerDTO> getBeer() {
+		return ResponseEntity<>(BeerDTO.builder().build());;
+	}
+}

@@ -1,0 +1,13 @@
+package com.learning.springframewrk.web.model;
+
+import java.util.UUID;
+
+public class BeerDTO {
+	
+	private UUID id;
+	private String beerName;
+	private String beerStyle;
+	private Long upc;
+	
+
+}

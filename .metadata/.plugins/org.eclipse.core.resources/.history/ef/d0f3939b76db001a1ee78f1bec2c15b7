@@ -1,0 +1,16 @@
+package com.learning.springframewrk.service;
+
+import java.util.UUID;
+
+import com.learning.springframewrk.web.model.CustomerDTO;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public CustomerDTO getCustomerById(UUID customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

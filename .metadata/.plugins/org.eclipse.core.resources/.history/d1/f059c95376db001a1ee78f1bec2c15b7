@@ -1,0 +1,5 @@
+package com.learning.springframewrk.service;
+
+public interface CustomerService {
+
+}

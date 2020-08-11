@@ -1,0 +1,5 @@
+package com.learning.springframewrk.web.model;
+
+public class BeerDTO {
+
+}

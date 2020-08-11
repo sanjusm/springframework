@@ -1,0 +1,9 @@
+package com.learning.springframewrk.service;
+
+import java.util.UUID;
+
+public interface BeerService {
+
+	BeerDTO getBeerById(UUID beerId);
+
+}

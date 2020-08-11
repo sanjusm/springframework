@@ -1,0 +1,6 @@
+package com.learning.springframewrk.service;
+
+public interface CustomerService {
+
+	CustomerDTO getCustomerById(UUID customerId);
+}
